@@ -18,6 +18,7 @@ namespace QueueReader
 
             CloudQueueMessage msg = new CloudQueueMessage(message);
             resultQueue.AddMessage(msg);
+            // hello wasif . this is your first comment
 
         }
     }
